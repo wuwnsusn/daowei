@@ -1,21 +1,606 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Title</title>
-  <style type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/css.css">
+  <!--[if lt IE 9]>
+  <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <!--<style type="text/css">
     * {
       margin: 0;
       padding: 0;
     }
-
-
-  </style>
+    ul{
+      list-style: none;
+    }
+    a{
+      text-decoration: none;
+    }
+  </style>-->
 </head>
 <body>
 
+  <!--头部
+      小于768px，右边不显示
+  -->
+  <header class='container header'>
+    <div class="row">
+      <div class='header-left'>
+        <img src="image/logo.png" alt="logo">
+      </div>
+      <div class="header-right ">
+        <!--col-xs-push-12-->
+        <div class="header-right-city">
+          <a href="javascript:;">北京&nbsp<span>切换城市</span></a>
+        </div>
+        <div class='header-right-2'>
+          <a href="javascript:;" class='class-a'>
+            <span>首页</span>
+            <span>下载APP</span>
+            <span>服务商</span>
+            <span>商家入驻</span>
+            <span>关于我们</span>
+          </a>
+        </div>
+        <div class="header-right-login">
+          <a href="javascript:;">商家登录</a>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!--轮播图区域-->
+  <div class='banner'>
+    <div class="banner-left">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="banner-right"></div>
+  </div>
+
+  <!--重复性区域-->
+  <section class='copy'>
+    <div>
+      <div class="copy-text">
+        <div class="copy-text-1">家庭保洁</div>
+        <div class="copy-text-2">小时工/开荒保洁/擦玻璃/深度保洁/家居养护/杀虫除螨</div>
+      </div>
+      <div class="copy-img">
+        <div class="copy-img-blank">
+          <a href="javascript:;">更多服务></a>
+        </div>
+        <ul class='copy-img-list'>
+          <li>
+            <a href="javascript:;">
+              <img src="image/001.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/002.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/003.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/004.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/005.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class='copy'>
+    <div>
+      <div class="copy-text">
+        <div class="copy-text-1">家庭保洁</div>
+        <div class="copy-text-2">小时工/开荒保洁/擦玻璃/深度保洁/家居养护/杀虫除螨</div>
+      </div>
+      <div class="copy-img">
+        <div class="copy-img-blank">
+          <a href="javascript:;">更多服务></a>
+        </div>
+        <ul class='copy-img-list'>
+          <li>
+            <a href="javascript:;">
+              <img src="image/001.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/002.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/003.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/004.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/005.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class='copy'>
+    <div>
+      <div class="copy-text">
+        <div class="copy-text-1">家庭保洁</div>
+        <div class="copy-text-2">小时工/开荒保洁/擦玻璃/深度保洁/家居养护/杀虫除螨</div>
+      </div>
+      <div class="copy-img">
+        <div class="copy-img-blank">
+          <a href="javascript:;">更多服务></a>
+        </div>
+        <ul class='copy-img-list'>
+          <li>
+            <a href="javascript:;">
+              <img src="image/001.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/002.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/003.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/004.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/005.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class='copy'>
+    <div>
+      <div class="copy-text">
+        <div class="copy-text-1">家庭保洁</div>
+        <div class="copy-text-2">小时工/开荒保洁/擦玻璃/深度保洁/家居养护/杀虫除螨</div>
+      </div>
+      <div class="copy-img">
+        <div class="copy-img-blank">
+          <a href="javascript:;">更多服务></a>
+        </div>
+        <ul class='copy-img-list'>
+          <li>
+            <a href="javascript:;">
+              <img src="image/001.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/002.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/003.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/004.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/005.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class='copy'>
+    <div>
+      <div class="copy-text">
+        <div class="copy-text-1">家庭保洁</div>
+        <div class="copy-text-2">小时工/开荒保洁/擦玻璃/深度保洁/家居养护/杀虫除螨</div>
+      </div>
+      <div class="copy-img">
+        <div class="copy-img-blank">
+          <a href="javascript:;">更多服务></a>
+        </div>
+        <ul class='copy-img-list'>
+          <li>
+            <a href="javascript:;">
+              <img src="image/001.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/002.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/003.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/004.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;">
+              <img src="image/005.jpg" alt="图片描述">
+              <div class='copy-img-list-1'>
+                <p>家庭保洁</p>
+                <div>家庭保洁服务，2小时起订。阿姨上门不带保洁工具，需用户自备...</div>
+              </div>
+              <div class=copy-img-list-2>
+                <span>35</span>元/小时
+                <span class="copy-btn">查看详情</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
 
+
+  <!--尾部-->
+  <footer>
+    <div class="footer-server">
+      <h2>到位<span>服务</span>保障</h2>
+      <p>到位平台担保交易安全，交易未成功100%退款</p>
+    </div>
+    <div class="footer-anquan">
+      <ul class='footer-anquan-list'>
+        <li>优质服务</li>
+        <li>全程保障</li>
+        <li>安全无忧</li>
+      </ul>
+    </div>
+    <div class="footer-citys">
+      <div class="footer-citys-left">热门城市</div>
+      <div class="footer-citys-right">
+        <a href="javascript:;">北京</a>
+        <a href="javascript:;">上海</a>
+        <a href="javascript:;">天津</a>
+        <a href="javascript:;">重庆</a>
+        <a href="javascript:;">苏州</a>
+        <a href="javascript:;">广州</a>
+        <a href="javascript:;">达州</a>
+        <a href="javascript:;">通州</a>
+        <a href="javascript:;">合肥</a>
+        <a href="javascript:;">成都</a>
+        <a href="javascript:;">乌鲁木齐</a>
+        <a href="javascript:;">兰州</a>
+        <a href="javascript:;">西安</a>
+        <a href="javascript:;">太原</a>
+        <a href="javascript:;">杭州</a>
+        <a href="javascript:;">哈尔滨</a>
+        <a href="javascript:;">沈阳</a>
+        <a href="javascript:;">大连</a>
+        <a href="javascript:;">郑州</a>
+        <a href="javascript:;">日照</a>
+        <a href="javascript:;">海南</a>
+        <a href="javascript:;">昆明</a>
+        <a href="javascript:;">济南</a>
+        <a href="javascript:;">武汉</a>
+        <a href="javascript:;">南昌</a>
+        <a href="javascript:;">长沙</a>
+        <a href="javascript:;">福州</a>
+        <a href="javascript:;">贵州</a>
+        <a href="javascript:;">南京</a>
+        <a href="javascript:;">无锡</a>
+        <a href="javascript:;">石家庄</a>
+        <a href="javascript:;">廊坊</a>
+        <a href="javascript:;">新乡</a>
+
+      </div>
+    </div>
+    <div class="footer-friend">
+      <p>合作伙伴</p>
+      <ul>
+      <!--给每个li绑定点击跳转-->
+      <li>
+        <img src="image/guanjia.jpg" alt="">
+      </li>
+      <li>
+        <img src="image/zuomu.jpg" alt="">
+      </li>
+      <li>
+        <img src="image/xiaohushi.jpg" alt="">
+      </li>
+      <li>
+        <img src="image/shifen.jpg" alt="">
+      </li>
+      <li>
+        <img src="image/meidao.jpg" alt="">
+      </li>
+      <li>
+        <img src="image/qiaomao.png" alt="">
+      </li>
+      <li>
+        <img src="image/meidao.png" alt="">
+      </li>
+      <li>
+        <img src="image/kala.jpg" alt="">
+      </li>
+      <li>
+        <img src="image/jiaxiu.jpg" alt="">
+      </li>
+
+    </ul>
+      <ul>
+        <!--给每个li绑定点击跳转-->
+        <li>
+          <img src="image/guanjia.jpg" alt="">
+        </li>
+        <li>
+          <img src="image/zuomu.jpg" alt="">
+        </li>
+        <li>
+          <img src="image/xiaohushi.jpg" alt="">
+        </li>
+        <li>
+          <img src="image/shifen.jpg" alt="">
+        </li>
+        <li>
+          <img src="image/meidao.jpg" alt="">
+        </li>
+        <li>
+          <img src="image/qiaomao.png" alt="">
+        </li>
+        <li>
+          <img src="image/meidao.png" alt="">
+        </li>
+        <li>
+          <img src="image/kala.jpg" alt="">
+        </li>
+        <li>
+          <img src="image/jiaxiu.jpg" alt="">
+        </li>
+
+      </ul>
+      <div class="footer-copyright">©2015 版权所有  到位 daoway.com 京ICP备15001471号-1 北京邻家科技有限公司</div>
+    </div>
+  </footer>
+
+  <script type='text/javascript' src='js/jquery-1.12.4.js'></script>
+  <!--<script type='text/javascript' src='js/bootstrap.js'></script>-->
 <script type='text/javascript'>
 
 </script>
