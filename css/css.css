@@ -195,7 +195,7 @@ footer{
   font:normal 800 30px/33px  "Microsoft YaHei" ;
   color: #333;
 }
-.footer-server h2 span {
+.footer-server h2 span,.shangjia-formtext span{
   color: #fb474f;
 }
 .footer-server p{
@@ -421,13 +421,12 @@ footer{
 }
 
 /*服务商区域*/
-.serve-wrap{
+.serve-wrap,about-wrap{
   background-color: #FBF8F8;
 }
-.serve{
+.serve,.about{
   width: 1200px;
   margin:0 auto;
-
 }
 .serve-1{
   width:100%;
@@ -514,8 +513,165 @@ footer{
 }
 
 
+/*商家入驻*/
+.shangjia-bg{
+  height: 300px;
+  background: url("../image/information.jpg") center no-repeat;
+}
+.shangjia-wrap-bg{
+  height: 300px;
+}
+.shangjia-wrap-bg:nth-child(even){
+  background-color: #f8f8f8;
+}
+.shangjia-1,.shangjia-2{
+  height:100%;
+  justify-content: flex-start;
+}
+.shangjia-1-1{
+  width: 350px;
+  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.shangjia-1-1>img{
+  margin-left: 60px;
+}
+
+.shangjia-1-2{
+  width: 850px;
+  justify-content: flex-start;
+}
+.shangjia-2-1{
+  width: 700px;
+  justify-content: flex-start;
+}
+.shangjia-2-2{
+  width: 500px;
+}
+.shangjia-1-2 p,.shangjia-2-1 p{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 60px;
+  color: #333;
+  margin-bottom: 40px;
+}
+.shangjia-1-2 span,.shangjia-2-1 span{
+  font-size: 22px;
+  line-height: 60px;
+  color: #333;
+  margin-left: 60px;
+}
+.shangjia-formwrap{
+  color: #333;
+  width: 700px;
+}
+.shangjia-formwrap>p{
+  font-size: 14px;
+  line-height:16px;
+  color: #898989;
+  margin-top: 20px;
+  margin-bottom:50px;
+}
+.shangjia-formtext{
+  font-weight: bold;
+  font-size: 28px;
+  line-height:32px;
+}
+.shangjia-form input{
+  border-radius: 6px;
+  border:1px solid #d1d1d1;
+}
+.shangjia-form p,.shangjia-form-duoxuankuang p{
+  width: 120px;
+  height: 46px;
+  justify-content: flex-end;
+}
+.shangjia-form p b{
+  color: #f00;
+}
+.shangjia-form-item{
+  justify-content: flex-start;
+  font-size: 14px;
+  line-height: 46px;
+}
+.shangjia-form-item>div{
+  width: 500px;
+  height: 46px;
+}
 
 
+.shangjia-form-duoxuankuang{
+  justify-content: flex-start;
+}
+.shangjia-form-duoxuankuang p{
+  align-items: flex-start;
+}
+.shangjia-form-duoxuankuang>div{
+  width: 500px;
+  padding-left:15px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 40px;
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+}
+.shangjia-form-duoxuankuang>div>div{
+  width:16.6%;
+}
+.shangjia-form-duoxuankuang>div>div:last-child{
+  width:33.2%;
+}
 
+.shangjia-form-item>div>input,#qita{
+  margin-left: 10px;
+  padding-left: 15px;
+  width:100%;
+  height: 30px;
+  align-self: center;
+}
+#qita{
+  width:70%;
+  margin-right: 5px;
+  height:25px;
+  line-height: 25px;
+}
+.shangjia-tijiao{
+  font-size: 14px;
+  line-height:36px;
+  width: 128px;
+  height: 36px;
+  color: #fff;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #FB474F;
+  margin:38px auto 0;
+}
 
-
+/*关于我们*/
+.about-bg{
+  height: 240px;
+  background: url("../image/aboutbanner.jpg") center no-repeat;
+}
+.about{
+  border:1px solid #e5e5e5;
+  padding:0 20px;
+}
+.about-1 h2{
+  display: inline-block;
+  font:normal 600 20px/22px 'latobold', 'Verdana', 'sans-serif';
+  border-bottom: 4px solid #E84B47;
+  padding:28px 8px 5px;
+}
+.about-1 p{
+  font-size: 18px;
+  line-height:28px;
+  color: #929292;
+  margin:26px 0;
+}
+.about-line{
+  border-top: 1px solid #E5E5E5;
+}
