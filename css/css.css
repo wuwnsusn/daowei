@@ -491,7 +491,11 @@ footer{
   justify-content: flex-start;
 }
 .serve-left{
-  width: 970px;
+  width: 960px;
+  margin-right: 10px;
+}
+.serve-left>div{
+  margin-bottom: 40px;
 }
 .serve-left-ul{
   justify-content: flex-start;
@@ -562,6 +566,240 @@ footer{
   width: 126px;
   height: 126px;
   /*background-color: yellow;*/
+}
+/*公共*/
+/*颜色*/
+.color-000{ color: #000;}
+.color-red1{ color: #e84b47;}
+.flex-zuo{
+  justify-content: flex-start;
+}
+
+/*服务商跳转*/
+.serveskip-top-bg{
+  background-color: #fff;
+}
+.serveskip-top-bg2{
+  background-color: #323434;
+  margin-bottom: 22px;
+}
+.serveskip-top1{
+  justify-content: space-between;
+  height: 140px;
+  padding:20px;
+}
+.serveskip-top1-left{
+  font-size: 14px;
+  line-height: 140px;
+  color: #929292;
+}
+
+.serveskip-top1-left>div{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 140px;
+  color: #333;
+}
+.serveskip-top1-left>span{
+  margin:0 8px;
+  margin-bottom: -22px;
+}
+.serveskip-top1-right{
+  width: 300px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+}
+.serveskip-top1-right ul{
+  justify-content:flex-start;
+}
+.serveskip-top1-right li{
+  height: 40px;
+  width: 90px;
+}
+.serveskip-top1-right span{
+  color: #e84b47;
+  padding-left: 10px;
+}
+.serveskip-top1-right em{
+  position: relative;
+  top:0;
+  left:-20px;
+  opacity: .5;
+}
+
+.serveskip-top2{
+  height: 40px;
+}
+.serveskip-top2 li{
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.serveskip1,.serveskip2,.serveskip3{
+  padding:0 20px;
+  background-color: #fff;
+}
+.serveskip1-1{
+  width: 100%;
+  height: 60px;
+  border-bottom:1px solid #cccccc;
+}
+.serveskip1-text{
+  display: inline-block;
+  line-height:55px;
+  font-size: 16px;
+  color: #121212;
+  /*margin-top:-5px;*/
+  border-bottom: 5px solid #FB474F;
+}
+
+.serveskip1-li{
+  height: 200px;
+}
+.serveskip1-li:hover{
+  cursor: pointer;
+  background-color: #FBF8F8;
+}
+.serveskip1-left{
+  height: 100%;
+  margin-right: 26px;
+}
+.serveskip1-left>img{
+  width: 150px;
+  height: 150px;
+}
+.serveskip1-right{
+  width:70%;
+}
+.serveskip1-right1{
+  font-size: 18px;
+  line-height:42px;
+  color: #1d1515;
+}
+.serveskip1-right2{
+  font-size: 14px;
+  line-height:42px;
+  color: #929292;
+}
+.serveskip1-right3{
+  font-size: 30px;
+  color: #fc545e;
+  font-weight: bold;
+}
+.serveskip3-left{
+  width:40px;
+  height: 167px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.serveskip3-left>img{
+  width: 40px;
+  height: 40px;
+}
+.serveskip3-right{
+  width: 850px;
+  font-size: 14px;
+  line-height:28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.a3333{
+  font-size: 0;
+  margin-right: 8px;
+}
+.serveskip3-right3{
+  font-size: 16px;
+  line-height:26px;
+}
+.serveskip3-right4:before{
+  content: '';
+  display: inline-block;
+  width: 9px;
+  height: 11px;
+  background: url("../image/position.jpg") center no-repeat;
+  margin-right: 12px;
+}
+.serveskip3-right4{
+  border-bottom:1px solid #E5E5E5;
+}
+.serveskip3-right4,.serveskip3-right5{
+  height: 40px;
+  color: #898989;
+  line-height:40px;
+}
+.serveskip3-right5>span{
+  color: #00e0d3;
+}
+
+.serveskip3-li{
+  /*height: 100%;*/
+  margin-top: 22px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.serveskip3{
+  margin-bottom: 0 !important;
+}
+.serveskip3-xiayiye{
+  background-color: #fff;
+  height: 150px;
+  padding:0 20px;
+}
+.serveskip3-xiayiye a{
+  font-size: 14px;
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  border:1px solid #ccc;
+  text-align: center;
+  line-height: 30px;
+  margin:0 6px;
+}
+.serveskip3-xiayiye-1{
+  font-size: 0;
+}
+.serveskip3-xiayiye-1 a{
+  font-size: 14px;
+  width: 32px;
+}
+.serveskip3-xiayiye-1 a:hover{
+  background-color: #FE454A;
+}
+.serveskip-a-active{
+  background-color: #FE454A;
+  color: #fff;
+}
+.a1111{
+  font-weight: normal;
+  font-size: 14px;
+  line-height:40px;
+  color: #929292;
+  float: right;
+}
+.a2222{
+  margin-left: 20px;
+  display: inline-block;
+  line-height:55px;
+  font-size: 16px;
+  color: #121212;
+}
+.company {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.profile {
+  line-height: 28px;
+  color: #929292;
+  margin: 10px 0px 25px;
+  font-size: 16px;
 }
 
 
