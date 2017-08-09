@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" href="css/banner.css">
   <!--[if lt IE 9]>
   <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -31,7 +32,7 @@
       小于768px，右边不显示
   -->
   <header class='container header'>
-    <div class="row">
+    <div class="header-wrap">
       <div class='header-left'>
         <img src="image/logo.png" alt="logo">
       </div>
@@ -57,22 +58,63 @@
 
   </header>
   <!--轮播图区域-->
-  <div class='banner'>
-    <div class="banner-left">
+  <div class="slider" id="slider">
+    <div class="slider-inner">
+      <div class="item">
+        <img class="img" style="background: url('image/banner1.jpg') center no-repeat;">
+      </div>
+      <div class="item">
+        <img class="img" style="background: url('image/banner2.jpg') center no-repeat;">
+      </div>
+      <div class="item">
+        <img class="img" style="background: url('image/banner3.jpg') center repeat-x;">
+      </div>
+    </div>
+    <div class="banner-menu">
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li class='banner-menu1 flex-center'>
+        家<span></span>庭<span></span>保<span></span>洁&nbsp;&nbsp;<img src="image/right.png" alt="">
+          <ul class='bannermenu2-wrap'>
+            <li class='banner-menu2 flex-center'>
+              小<span></span>时<span></span>工
+            </li>
+            <li class='banner-menu2 flex-center'>
+              小<span></span>时<span></span>工
+            </li>
+            <li class='banner-menu2 flex-center'>
+              小<span></span>时<span></span>工
+            </li>
+          </ul>
+        </li>
+        <li class='banner-menu1 flex-center'>
+          家<span></span>庭<span></span>保<span></span>洁&nbsp;&nbsp;<img src="image/right.png" alt="">
+        </li>
+        <li class='banner-menu1 flex-center'>
+          家<span></span>庭<span></span>保<span></span>洁&nbsp;&nbsp;<img src="image/right.png" alt="">
+        </li>
+        <li class='banner-menu1 flex-center'>
+          家<span></span>庭<span></span>保<span></span>洁&nbsp;&nbsp;<img src="image/right.png" alt="">
+        </li>
+        <li class='banner-menu1 flex-center'>
+          家<span></span>庭<span></span>保<span></span>洁&nbsp;&nbsp;<img src="image/right.png" alt="">
+        </li>
+        <li class='banner-menu1 flex-center'>
+          家<span></span>庭<span></span>保<span></span>洁&nbsp;&nbsp;<img src="image/right.png" alt="">
+        </li>
+        <li class='banner-menu1 flex-center'>
+          家<span></span>庭<span></span>保<span></span>洁&nbsp;&nbsp;<img src="image/right.png" alt="">
+        </li>
+        <li class='banner-menu1 flex-center'>
+          家<span></span>庭<span></span>保<span></span>洁&nbsp;&nbsp;<img src="image/right.png" alt="">
+        </li>
+        <li class='banner-menu1 flex-center'>
+          家<span></span>庭<span></span>保<span></span>洁&nbsp;&nbsp;<img src="image/right.png" alt="">
+        </li>
+        <li class='banner-menu1 flex-center'>
+          家<span></span>庭<span></span>保<span></span>洁&nbsp;&nbsp;<img src="image/right.png" alt="">
+        </li>
       </ul>
     </div>
-    <div class="banner-right"></div>
   </div>
 
   <!--重复性区域-->
@@ -601,6 +643,7 @@
 
   <script type='text/javascript' src='js/jquery-1.12.4.js'></script>
   <script type='text/javascript' src='js/bootstrap.js'></script>
+  <script type='text/javascript' src='js/banner.js'></script>
 <script type='text/javascript'>
 
 </script>
