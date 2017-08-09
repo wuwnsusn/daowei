@@ -1,0 +1,144 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft YaHei", SimSun;
+}
+.flex-center{
+  /*盒模型水平垂直居中*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+*{
+  box-sizing: border-box;
+  border:none;
+  /*outline: none;*/
+}
+a{
+  font-size: 14px;
+  color: #777;
+}
+a:hover{
+  opacity: .8;
+  text-decoration: underline;
+}
+.login{
+  width: 332px;
+  padding:15px;
+  border:1px solid #ccc;
+  border-radius: 6px;
+}
+.login>*{
+  width: 300px;
+}
+.login-1{
+  margin:10px 0;
+}
+.login-2,.login-3{
+  height: 55px;
+}
+.login-2>*,.login-3>*{
+  height: 100%;
+}
+.login-2 span,.login-3 span{
+  width: 12%;
+  border:1px solid #ccc;
+}
+.login-2>span{
+  border-bottom:none;
+  border-top-left-radius:5px;
+}
+.login-3>span{
+  border-bottom-left-radius:5px;
+}
+.login-2 input,.login-3 input{
+  width: 88%;
+  font-size: 16px;
+  line-height: 23px;
+  padding-left: 15px;
+  border:none;
+}
+.login-2>input{
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  /*border-radius: 0 5px 0 0 / 0 5px 0 0;*/
+  border-top-right-radius: 5px;
+}
+.login-3>input{
+  border: 1px solid #ccc;
+  border-left:none;
+  /*border-radius: 0 5px 0 0 / 0 5px 0 0;*/
+  border-bottom-right-radius: 5px;
+}
+.login-4{
+  margin:20px 0;
+  height: 46px;
+  font-size: 18px;
+  line-height: 24px;
+  border:1px solid #ccc;
+  border-radius: 6px;
+  background-color: #337AB7;
+  color: #fff;
+}
+.login-4:hover{
+  background-color: #286090;
+}
+.login-5{
+  justify-content:space-between;
+  padding:0 20px;
+}
+/*.login-5 a,.login2-5 a{
+  font-size: 14px;
+  color: #777;
+}*/
+/*注册*/
+.login2-1{
+  height: 46px;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-bottom:10px;
+}
+.login2-yanzheng{
+  height: 100px;
+  margin-bottom: 10px;
+}
+.login2-yanzheng-left{
+  width: 66%;
+  height: 100%;
+}
+.login2-yanzheng-left>*{
+  /*font-size: 0;*/
+  width: 100%;
+  height: 50%;
+}
+.login2-yanzheng-left img{
+  border:0;
+  border:1px solid #ccc;
+  border-top-left-radius: 5px;
+}
+.login2-yanzheng-left input{
+  padding-left: 15px;
+  border:1px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-top:none;
+}
+.login2-yanzheng-right{
+  width: 34%;
+  height: 100%;
+  border:1px solid #ccc;
+  border-left: none;
+  background-color: #eee;
+  font-size: 14px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.login2-yanzheng-right a{
+  text-decoration: none;
+}
+
+.login3-5{
+  justify-content:flex-end;
+  padding-right: 25%;
+}
