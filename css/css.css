@@ -770,6 +770,8 @@ footer{
 }
 .serveskip3-xiayiye-1 a:hover{
   background-color: #FE454A;
+  color: #fff;
+  transition:.3s;
 }
 .serveskip-a-active{
   background-color: #FE454A;
