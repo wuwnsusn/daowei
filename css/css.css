@@ -9,6 +9,21 @@ body{
   flex-wrap: wrap;
 }
 /*头部*/
+.header-flxed{
+  position: fixed;
+  z-index: 200;
+  -webkit-animation:anim-xg1 1s;
+  -o-animation:anim-xg1 1s;
+  animation:anim-xg1 1s;
+}
+@keyframes anim-xg1{
+  from{
+    transform: translate(0,-69px);
+  }
+  to{
+    transform: translate(0 0) ;
+  }
+}
 .header{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -17,6 +32,7 @@ body{
   /*margin:0 auto;*/
   width: 100%;
   border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
   height: 70px;
 }
 .header-left{
@@ -34,6 +50,8 @@ body{
 
 .header-right{
   float: right;
+  justify-content: space-around;
+  align-items: flex-start;
   font:normal bold 16px/20px latoregular, Verdana, sans-serif;
   margin-top: 24px;
   width: 730px;
@@ -43,23 +61,34 @@ body{
   margin-right: 10px;
   height:40px;
 }
-.header-right .header-right-2{
-  margin-top: -10px;
+.color-active-red{
+  color: #e94840;
 }
+.header-right-2{
+  justify-content:space-around;
+  align-items: flex-start;
+  width: 60%;
+}
+.header-right-2>a:hover{
+  color: #e94840;
+}
+/*.header-right .header-right-2{*/
+  /*margin-top: -10px;*/
+/*}*/
 .header-right div a{
-  padding:10px 15px;
+  /*padding:10px 15px;*/
 }
 .header-right div a:last-child{
   padding:0;
 }
-.class-a{
-  padding:0 !important;
-}
-.class-a span{
-  display: inline-block;
-  padding:10px 15px;
-}
-.class-a span:hover,.header-right-city span:hover{
+/*.class-a{*/
+  /*padding:0 !important;*/
+/*}*/
+/*.class-a span a{*/
+  /*display: inline-block;*/
+  /*!*padding:10px 15px;*!*/
+/*}*/
+/*.class-a span a:hover,*/.header-right-city span:hover{
   color: #e94840;
 }
 
@@ -102,6 +131,7 @@ body{
 }
 .banner-menu1{
   color: #fff;
+  position: relative;
 }
 .banner-menu1,.banner-menu2{
   width: 180px;
