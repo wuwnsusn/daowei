@@ -131,7 +131,7 @@ body{
 }
 .banner-menu1{
   color: #fff;
-  position: relative;
+  /*position: relative;*/
 }
 .banner-menu1,.banner-menu2{
   width: 180px;
@@ -148,6 +148,18 @@ body{
   display: inline-block;
   width:2px;
 }
+.banner-menu1 img:last-child{
+  position: relative;
+  top:0%;
+  left:44px;
+  opacity:0;
+}
+.banner-menu1-img-show{
+  opacity:1 !important;
+}
+.banner-menu1-img-hidden{
+  opacity:0;
+}
 .bannermenu2-wrap{
   width: 180px;
   height: 420px;
@@ -155,6 +167,12 @@ body{
   top:0px;
   left:180px;
   background-color: #FFFBFB;
+  display: none;
+  /*z-index: -1;*/
+  /*opacity: ;*/
+}
+.bannermenu2-wrap-show{
+  display: block;
 }
 .banner-menu2{
   color: #000;
@@ -214,6 +232,11 @@ section{
 .copy-img-list{
   margin-top: 10px;
 }
+.copy-img-list:after{
+  content: '';
+  display: block;
+  clear: both;
+}
 .copy-img-list li{
   box-sizing: border-box;
   height: 345px;
@@ -222,6 +245,9 @@ section{
   margin:0 5px;
   padding:10px;
   border:1px solid #eaeaea;
+}
+.copy-img-list li:hover,.serve-left-li:hover{
+  box-shadow: 5px 5px 15px #ccc;
 }
 .copy-img-list li a img{
   width: 210px;
@@ -393,6 +419,8 @@ footer{
   width: 308px;
   height: 96px;
   position: relative;
+  top:210px;
+  left:46.7%;
 }
 .xiazai div{
   position: absolute;
@@ -581,7 +609,8 @@ footer{
 .serve-right{
   width: 230px;
 }
-.serve-right>img{
+.serve-right>a{
+  display: block;
   margin-bottom: 10px;
   width: 230px;
 }
